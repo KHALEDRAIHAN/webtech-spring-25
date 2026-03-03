@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+<title>Techflow Solution</title>    
+
+<style>
+body{
+    margin: 0;
+    height: 950px;;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    header{
+        text-align: center;
+        padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    }
+    .main {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(10, 90, 10);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+.User{
+       background-color: rgb(14, 70, 190);
+    color: rgb(14, 10, 10);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+</style>
+
+    </head>
+    <body>
+
+        <header>Techflow Solutions</header>
+
+        <div class="main">
+            <div class="container"> 
+
+            <h1>Create Account</h1>
+            <form>
+
+        <label>Email Address  </label> <br>
+        <input type="text" id="email"  value="" > <br>
+        
+        <label>Password  </label> <br>
+        <input type="password" id="password"  value="" > <br>   
+
+         <label>Confirm Password  </label> <br>
+        <input type="password" id=" Confierm password"  value="" >  <br>
+        
+        <label>Gender  </label> <br>
+        <select id=" Gender" onblur="Gender()">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select> <br> <br>
+        <button type="submit">Register</button>
+
+        </form>
+            </div>
+        </div>
+
+        <footer>@2026 Techflow Solution All Right Reserved</footer>
+    <div class="User" >  current user: 1</div>   
+ 
+    
+    </body>
+
+
+</html>
